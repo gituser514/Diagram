@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T16:21:21.787Z" agent="5.0 (Windows)" etag="k9cjkWncJKSkPHPuKX2o" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T16:48:34.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="h9-4txi5X0tcgtg6ZOW4" version="16.6.4" type="github">
   <diagram id="0YO4q45qK2cxMAk0PEHQ" name="Page-1">
-    <mxGraphModel dx="1094" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="yixYYZR7p3-tDQ7YvWht-15" value="+&lt;u&gt;bill_id&lt;br&gt;&lt;/u&gt;+datetime &lt;br&gt;&lt;div&gt;+treatments &lt;/div&gt;&lt;div&gt;+cost&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="yixYYZR7p3-tDQ7YvWht-14" vertex="1">
           <mxGeometry y="30" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yixYYZR7p3-tDQ7YvWht-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="yixYYZR7p3-tDQ7YvWht-16" edge="1">
+        <mxCell id="yixYYZR7p3-tDQ7YvWht-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeColor=default;" parent="1" source="yixYYZR7p3-tDQ7YvWht-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="80" as="targetPoint" />
           </mxGeometry>
@@ -218,7 +218,7 @@
         <mxCell id="CEkyPF-p6MLA-TPRzy7i-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.071;entryY=0.992;entryDx=0;entryDy=0;endArrow=classic;endFill=1;entryPerimeter=0;" parent="1" source="CEkyPF-p6MLA-TPRzy7i-28" target="yixYYZR7p3-tDQ7YvWht-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KoP9NaCKjaB5Ua0drMDm-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CEkyPF-p6MLA-TPRzy7i-28" target="yixYYZR7p3-tDQ7YvWht-11">
+        <mxCell id="KoP9NaCKjaB5Ua0drMDm-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CEkyPF-p6MLA-TPRzy7i-28" target="yixYYZR7p3-tDQ7YvWht-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="310" />
