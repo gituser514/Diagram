@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T16:15:15.277Z" agent="5.0 (Windows)" etag="UhIN-Vo1BdqNF5_uxEd4" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T16:21:21.787Z" agent="5.0 (Windows)" etag="k9cjkWncJKSkPHPuKX2o" version="16.6.2" type="github">
   <diagram id="0YO4q45qK2cxMAk0PEHQ" name="Page-1">
     <mxGraphModel dx="1094" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yixYYZR7p3-tDQ7YvWht-14" value="Bills" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="410" y="570" width="160" height="110" as="geometry" />
+          <mxGeometry x="440" y="520" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="yixYYZR7p3-tDQ7YvWht-15" value="+&lt;u&gt;bill_id&lt;br&gt;&lt;/u&gt;+datetime &lt;br&gt;&lt;div&gt;+treatments &lt;/div&gt;&lt;div&gt;+cost&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="yixYYZR7p3-tDQ7YvWht-14" vertex="1">
           <mxGeometry y="30" width="160" height="80" as="geometry" />
