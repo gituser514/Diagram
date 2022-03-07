@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T20:05:29.009Z" agent="5.0 (Windows)" etag="njIjZPSvNvloEiR1d4lu" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T20:06:03.391Z" agent="5.0 (Windows)" etag="TxqfoT2kPnUkVbQaS2e2" version="16.6.2" type="github">
   <diagram id="NNTBMT7bNkWJuyEZ8qoW" name="Page-1">
     <mxGraphModel dx="1563" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,19 +31,19 @@
         <mxCell id="zL7FWNWjEm8KsL3GWkdt-12" value="&lt;div align=&quot;left&quot;&gt;-- trainers, receptionist,&amp;nbsp; staff members, members&lt;br&gt;-- weight room , locker room, cardio area&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="15" y="35" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zL7FWNWjEm8KsL3GWkdt-14" value="Staff Members" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="90" y="530" width="160" height="120" as="geometry" />
+        <mxCell id="zL7FWNWjEm8KsL3GWkdt-14" value="Cardio Area" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="720" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zL7FWNWjEm8KsL3GWkdt-15" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="zL7FWNWjEm8KsL3GWkdt-14">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="zL7FWNWjEm8KsL3GWkdt-16" value="Staff Members" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="100" y="540" width="160" height="120" as="geometry" />
+        <mxCell id="zL7FWNWjEm8KsL3GWkdt-16" value="Locker Room" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zL7FWNWjEm8KsL3GWkdt-17" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="zL7FWNWjEm8KsL3GWkdt-16">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="zL7FWNWjEm8KsL3GWkdt-18" value="Staff Members" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="zL7FWNWjEm8KsL3GWkdt-18" value="Weight Room" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="80" y="720" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zL7FWNWjEm8KsL3GWkdt-19" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="zL7FWNWjEm8KsL3GWkdt-18">
