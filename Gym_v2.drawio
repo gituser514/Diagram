@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T21:11:20.256Z" agent="5.0 (Windows)" etag="oi5CN29zm37d6ekte3xK" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T21:13:30.966Z" agent="5.0 (Windows)" etag="JliaKslD1l5B4AIkoTrr" version="16.6.2" type="github">
   <diagram id="0cP2L5NapRZ2q6dpNI_G" name="Page-1">
     <mxGraphModel dx="1556" dy="3209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_hFObNWpqlc1TxxzcIpo-45" value="Payment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="-1630" width="160" height="120" as="geometry" />
+          <mxGeometry x="1500" y="-1580" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_hFObNWpqlc1TxxzcIpo-46" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_hFObNWpqlc1TxxzcIpo-45">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
@@ -170,7 +170,19 @@
         <mxCell id="_hFObNWpqlc1TxxzcIpo-51" value="registers" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="930" y="-2020" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_hFObNWpqlc1TxxzcIpo-58" value="occupies " style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="_hFObNWpqlc1TxxzcIpo-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.65;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_hFObNWpqlc1TxxzcIpo-58" target="_hFObNWpqlc1TxxzcIpo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_hFObNWpqlc1TxxzcIpo-66" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_hFObNWpqlc1TxxzcIpo-58" target="_hFObNWpqlc1TxxzcIpo-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="-1830" />
+              <mxPoint x="1490" y="-1830" />
+              <mxPoint x="1490" y="-1809" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hFObNWpqlc1TxxzcIpo-58" value="&lt;div&gt;charged &lt;br&gt;&lt;/div&gt;&lt;div&gt;in&lt;/div&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1410" y="-1900" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_hFObNWpqlc1TxxzcIpo-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.636;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_hFObNWpqlc1TxxzcIpo-59" target="_hFObNWpqlc1TxxzcIpo-3">
@@ -179,8 +191,19 @@
         <mxCell id="_hFObNWpqlc1TxxzcIpo-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_hFObNWpqlc1TxxzcIpo-59" target="_hFObNWpqlc1TxxzcIpo-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_hFObNWpqlc1TxxzcIpo-59" value="occupies " style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="_hFObNWpqlc1TxxzcIpo-59" value="&lt;div&gt;charged &lt;br&gt;&lt;/div&gt;&lt;div&gt;in&lt;/div&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1410" y="-1790" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_hFObNWpqlc1TxxzcIpo-63" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_hFObNWpqlc1TxxzcIpo-62" target="_hFObNWpqlc1TxxzcIpo-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_hFObNWpqlc1TxxzcIpo-64" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_hFObNWpqlc1TxxzcIpo-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1585" y="-1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_hFObNWpqlc1TxxzcIpo-62" value="paid" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="-1670" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
