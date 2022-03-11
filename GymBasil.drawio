@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T16:54:09.526Z" agent="5.0 (Windows)" etag="BbbkPfBlMhNn0Wgl4Bnc" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T16:56:31.668Z" agent="5.0 (Windows)" etag="Md_mCfvV-l1MnqGK6nIm" version="16.6.2" type="github">
   <diagram id="1JMSee2UDSkdAxNfkw2s" name="Page-1">
     <mxGraphModel dx="1245" dy="3007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,19 +14,19 @@
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="L0XOrqGyj3-YNECDvazH-4" value="Receptionists " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1039" y="-1800" width="160" height="120" as="geometry" />
+          <mxGeometry x="1070" y="-1800" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="L0XOrqGyj3-YNECDvazH-5" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="L0XOrqGyj3-YNECDvazH-4" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="L0XOrqGyj3-YNECDvazH-6" value="Trainers" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="-1620" width="160" height="120" as="geometry" />
+          <mxGeometry x="1310" y="-1800" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="L0XOrqGyj3-YNECDvazH-7" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="L0XOrqGyj3-YNECDvazH-6" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="L0XOrqGyj3-YNECDvazH-8" value="Supervisors" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="880" y="-1620" width="159" height="120" as="geometry" />
+          <mxGeometry x="880.5" y="-1730" width="159" height="120" as="geometry" />
         </mxCell>
         <mxCell id="L0XOrqGyj3-YNECDvazH-9" value="+Supervisor_id&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="L0XOrqGyj3-YNECDvazH-8" vertex="1">
           <mxGeometry y="20" width="159" height="100" as="geometry" />
