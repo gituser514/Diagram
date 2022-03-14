@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T17:34:26.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="rqM2DnErnl9y7mnjQa3t" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T17:36:28.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="5aTCjgFcPP4tZkMsk5sL" version="17.1.2" type="github" pages="2">
   <diagram id="1JMSee2UDSkdAxNfkw2s" name="Page-1">
     <mxGraphModel dx="2272" dy="4093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -237,8 +237,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="QqnNpOu0w_UOjkraV2tt" name="Page-2">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="QqnNpOu0w_UOjkraV2tt" name="Table creation">
+    <mxGraphModel dx="1043" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="mHffD-b_kKgBGCKh0JiN-0" />
         <mxCell id="mHffD-b_kKgBGCKh0JiN-1" parent="mHffD-b_kKgBGCKh0JiN-0" />
