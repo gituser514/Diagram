@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T17:36:49.056Z" agent="5.0 (Windows)" etag="AnZTLKIMKVyD_pFXwzZA" version="16.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T17:39:04.637Z" agent="5.0 (Windows)" etag="ZczriHKniQ7pAaOwBQrc" version="16.6.2" type="github" pages="2">
   <diagram id="1JMSee2UDSkdAxNfkw2s" name="Page-1">
-    <mxGraphModel dx="1918" dy="3443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1467" dy="3151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="L0XOrqGyj3-YNECDvazH-47" value="Supervises" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="L0XOrqGyj3-YNECDvazH-47" value="supervises" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="925" y="-1580" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="L0XOrqGyj3-YNECDvazH-49" value="Subscription" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -203,7 +203,7 @@
         <mxCell id="L0XOrqGyj3-YNECDvazH-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="L0XOrqGyj3-YNECDvazH-62" target="L0XOrqGyj3-YNECDvazH-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L0XOrqGyj3-YNECDvazH-62" value="Passes" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="L0XOrqGyj3-YNECDvazH-62" value="passes" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="-1840" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="L0XOrqGyj3-YNECDvazH-63" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=none;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pXAxvWOuB3EgA2IOpRoH-2" target="L0XOrqGyj3-YNECDvazH-39" edge="1">
