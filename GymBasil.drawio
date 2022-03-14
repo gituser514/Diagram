@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T17:39:04.637Z" agent="5.0 (Windows)" etag="ZczriHKniQ7pAaOwBQrc" version="16.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T17:39:41.978Z" agent="5.0 (Windows)" etag="vJdPsEezhdu1ywzXKlin" version="16.6.2" type="github" pages="2">
   <diagram id="1JMSee2UDSkdAxNfkw2s" name="Page-1">
     <mxGraphModel dx="1467" dy="3151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="L0XOrqGyj3-YNECDvazH-2" value="Users" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="880" y="-2180" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="L0XOrqGyj3-YNECDvazH-3" value="+Member_id&#xa;+Member_since&#xa;+Favorite Type of Training &#xa;(caridio or weight)&#xa;+Subscription y/n&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="L0XOrqGyj3-YNECDvazH-2" vertex="1">
+        <mxCell id="L0XOrqGyj3-YNECDvazH-3" value="+Member_id&#xa;+name&#xa;+address &#xa;+Member_since&#xa;+Favorite Type of Training &#xa;(caridio or weight)&#xa;+Subscription y/n&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="L0XOrqGyj3-YNECDvazH-2" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="L0XOrqGyj3-YNECDvazH-4" value="Receptionists " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
