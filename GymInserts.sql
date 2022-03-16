@@ -20,6 +20,24 @@ create table if not exists "user"
     check (length(phone_number)>= 10)
 );
 
+drop table if exists subscription;
+drop table bygym.subscription cascade;
+create table if not exists subscription
+(
+    subscription_id   integer generated always as identity primary key,
+    subscrption_date  date default now() not null,
+    subsciption_type  varchar(3),-- MON, ANN, NULL (USERS NOT SUBSCRIBED)
+    subscription_price integer,
+    receptionist_id integer references receptionists (receptionist_id)
+
+);
+insert into subscription(subscrption_date, subsciption_type, subscription_price,receptionist_id)
+values ('2022-03-02', 'ANN', 350,3),
+       ('2022-03-02', 'ANN', 350,4),
+       ('2021-01-21','ANN',350,3),
+       ('2021-08-21','MON',30,3);
+
+
 
 insert into receptionists (name, phone_number, email, address)
 values ('John Vanier', '1-514-1111111', 'JohnVanier@someserver.com', 'Monteral');
