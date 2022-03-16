@@ -7,6 +7,19 @@ values  ('Basil Kamhiyah', '555 Main Street', '222-333-4444', 'WGHT', 'basil@gma
        ('Evan Thomas', '2322 Quebec Street', '265-977-9743', 'WGHT', 'et@hotmail.com'),
        ('Samantha Smith', '88670 Calgary Street', '767-343-2474', 'CARD', 'sam_smith@gmail.com');
 
+create table if not exists "user"
+(
+    user_id            integer generated always as identity primary key,
+    name               varchar(30) unique not null,
+    address            text unique not null,
+    phone_number       varchar(12) unique not null,
+    preferred_training text,
+    e_mail             text unique not null,
+    subscription_id    integer references subscription (subscription_id),
+    check (length(e_mail) >= 6 and e_mail ilike '%@%.%'),-- if constraint not satisfyied, insert wont work
+    check (length(phone_number)>= 10)
+);
+
 
 insert into receptionists (name, phone_number, email, address)
 values ('John Vanier', '1-514-1111111', 'JohnVanier@someserver.com', 'Monteral');
