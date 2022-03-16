@@ -32,16 +32,16 @@ values ('Alice Trainer', '1-514-9999999', 'AliceTrainer@someserver.com', 'Monter
 
 
 
-insert into  weight_area (max_capacity, nb_of_weight_machines)
-values  (11, 8),
-        (13, 10),
-        (8, 5);
+insert into weight_area (max_capacity, nb_of_weight_machines)
+values (5, 4),
+       (4, 3),
+       (4, 3);
 
 
-insert into  cardio_area (max_capacity, nb_of_cardio_machines)
-values  (11, 8),
-        (13, 10),
-        (8, 5);
+insert into cardio_area (max_capacity, nb_of_cardio_machines)
+values (5, 4),
+       (4, 3),
+       (4, 3)
 
 
 insert into locker (locker_number, locker_location) VALUES (0002, 'Card');
