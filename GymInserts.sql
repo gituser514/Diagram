@@ -1,11 +1,11 @@
 -- inserts
 
 insert into "user"(name, address, phone_number, preferred_training, e_mail)
-values  ('Basil Kamhiyah', '555 Main Street', 222-333-4444, 'WGHT', 'basil@gmail.com'),
-       ('Alex John', '123 principal Street', 234-543-6543, 'WGHT', 'alex@gmail.com' ),
-       ('Marcia White', '2309 Montreal Street', 235-453-2454, 'CARD', 'm_w@gmail.com'),
-       ('Evan Thomas', '2322 Quebec Street', 265-977-9743, 'WGHT', 'et@hotmail.com'),
-       ('Samantha Smith', '88670 Calgary Street', 767-343-2474, 'CARD', 'sam_smith@gmail.com');
+values  ('Basil Kamhiyah', '555 Main Street', '222-333-4444', 'WGHT', 'basil@gmail.com'),
+       ('Alex John', '123 principal Street', '234-543-6543', 'WGHT', 'alex@gmail.com' ),
+       ('Marcia White', '2309 Montreal Street', '235-453-2454', 'CARD', 'm_w@gmail.com'),
+       ('Evan Thomas', '2322 Quebec Street', '265-977-9743', 'WGHT', 'et@hotmail.com'),
+       ('Samantha Smith', '88670 Calgary Street', '767-343-2474', 'CARD', 'sam_smith@gmail.com');
 
 
 insert into receptionists (name, phone_number, email, address)
