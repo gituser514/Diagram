@@ -1,8 +1,12 @@
 -- inserts
 
-insert into users(
+insert into "user"(name, address, phone_number, preferred_training, e_mail)
+values  ('Basil Kamhiyah', '555 Main Street', 222-333-4444, 'WGHT', 'basil@gmail.com'),
+       ('Alex John', '123 principal Street', 234-543-6543, 'WGHT', 'alex@gmail.com' ),
+       ('Marcia White', '2309 Montreal Street', 235-453-2454, 'CARD', 'm_w@gmail.com'),
+       ('Evan Thomas', '2322 Quebec Street', 265-977-9743, 'WGHT', 'et@hotmail.com'),
+       ('Samantha Smith', '88670 Calgary Street', 767-343-2474, 'CARD', 'sam_smith@gmail.com');
 
-);
 
 insert into receptionists (name, phone_number, email, address)
 values ('John Vanier', 1-514-1111111, 'JohnVanier@someserver.com', 'Monteral');
@@ -26,6 +30,17 @@ insert into trainers (name, phone_number, email, address)
 values ('Alice Trainer', 1-514-9999999, 'AliceTrainer@someserver.com', 'Monteral8');
 
 
+
+insert into  weight_area (max_capacity, nb_of_weight_machines)
+values  (11, 8),
+        (13, 10),
+        (8, 5);
+
+
+insert into  cardio_area (max_capacity, nb_of_cardio_machines)
+values  (11, 8),
+        (13, 10),
+        (8, 5);
 
 
 insert into locker (locker_number, locker_location) VALUES (0002, 'Card');
