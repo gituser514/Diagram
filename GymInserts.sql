@@ -31,6 +31,7 @@ values ('Alice Trainer', '1-514-9999999', 'AliceTrainer@someserver.com', 'Monter
 
 
 
+
 insert into  weight_area (max_capacity, nb_of_weight_machines)
 values  (11, 8),
         (13, 10),
