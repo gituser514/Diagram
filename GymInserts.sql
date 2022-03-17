@@ -7,7 +7,7 @@ values ('Basil Kamhiyah', '555 Main Street', '222-333-4444', 'WGHT', 'basil@gmai
        ('Evan Thomas', '2322 Quebec Street', '265-977-9743', 'WGHT', 'et@hotmail.com',  null),
        ('Samantha Smith', '88670 Calgary Street', '767-343-2474', 'CARD', 'sam_smith@gmail.com', null),
        ('MARY SMITH', '47 MySakila Drive', '1-514-111111', 'WGHT', 'MARY.SMITH@someserver.org',  null),
-       ('PATRICIA JOHNSON', ', ''28 MySQL Boulevard', '1-514-111112', 'WGHT', 'PATRICIA.JOHNSON@someserver.org',  2),
+       ('PATRICIA JOHNSON', '28 MySQL Boulevard', '1-514-111112', 'WGHT', 'PATRICIA.JOHNSON@someserver.org',  2),
        ('LINDA WILLIAMS', '23 Workhaven Lane  ', '1-514-111113', 'WGHT', 'LINDA.WILLIAMS@someserver.org', 3),
        ('BARBARA JONES ', '1411 Lillydale Drive ', '1-514-111114', 'WGHT', 'BARBARA.JONES@someserver.org', 1),
        ('ELIZABETH BROWN ', '1913 Hanoi Way ', '1-514-111115', 'WGHT', 'ELIZABETH.BROWN@someserver.org',  1),
