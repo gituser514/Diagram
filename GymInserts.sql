@@ -1,76 +1,119 @@
 -- inserts
 
-insert into "user"(name, address, phone_number, preferred_training, e_mail)
-values  ('Basil Kamhiyah', '555 Main Street', '222-333-4444', 'WGHT', 'basil@gmail.com'),
-       ('Alex John', '123 principal Street', '234-543-6543', 'WGHT', 'alex@gmail.com' ),
-       ('Marcia White', '2309 Montreal Street', '235-453-2454', 'CARD', 'm_w@gmail.com'),
-       ('Evan Thomas', '2322 Quebec Street', '265-977-9743', 'WGHT', 'et@hotmail.com'),
-       ('Samantha Smith', '88670 Calgary Street', '767-343-2474', 'CARD', 'sam_smith@gmail.com');
+insert into users (name, address, phone_number, preferred_training, e_mail, trainer_id)
+values ('Basil Kamhiyah', '555 Main Street', '222-333-4444', 'WGHT', 'basil@gmail.com', null),
+       ('Alex John', '123 principal Street', '234-543-6543', 'WGHT', 'alex@gmail.com', null),
+       ('Marcia White', '2309 Montreal Street', '235-453-2454', 'CARD', 'm_w@gmail.com', 1),
+       ('Evan Thomas', '2322 Quebec Street', '265-977-9743', 'WGHT', 'et@hotmail.com',  null),
+       ('Samantha Smith', '88670 Calgary Street', '767-343-2474', 'CARD', 'sam_smith@gmail.com', null),
+       ('MARY SMITH', '47 MySakila Drive', '1-514-111111', 'WGHT', 'MARY.SMITH@someserver.org',  null),
+       ('PATRICIA JOHNSON', ', ''28 MySQL Boulevard', '1-514-111112', 'WGHT', 'PATRICIA.JOHNSON@someserver.org',  2),
+       ('LINDA WILLIAMS', '23 Workhaven Lane  ', '1-514-111113', 'WGHT', 'LINDA.WILLIAMS@someserver.org', 3),
+       ('BARBARA JONES ', '1411 Lillydale Drive ', '1-514-111114', 'WGHT', 'BARBARA.JONES@someserver.org', 1),
+       ('ELIZABETH BROWN ', '1913 Hanoi Way ', '1-514-111115', 'WGHT', 'ELIZABETH.BROWN@someserver.org',  1),
+       ('JENNIFER DAVIS ', '1121 Loja Avenue ', '1-514-111116', 'WGHT', 'JENNIFER.DAVIS@someserver.org',  1),
+       ('MARIA MILLER ', '692 Joliet Street ', '1-514-111117', 'WGHT', 'MARIA.MILLER@someserver.org', 1),
+       ('SUSAN WILSON ', '1566 Inegl Manor ', '1-514-111118', 'WGHT', 'SUSAN.WILSON@someserver.org',  1),
+       ('MARGARET MOORE ', '53 Idfu Parkway ', '1-514-111119', 'WGHT', 'MARGARET.MOORE@someserver.org', 1),
+       ('DOROTHY TAYLOR ', '1795 Santiago de Compostela Way ', '1-514-111120', 'WGHT', 'DOROTHY.TAYLOR@someserver.org',
+        null),
+       ('LISA ANDERSON ', '900 Santiago de Compostela Parkway ', '1-514-111121', 'CARD',
+        'LISA.ANDERSON@someserver.org', 1),
+       ('NANCY THOMAS ', '478 Joliet Way ', '1-514-111122', 'CARD', 'NANCY.THOMAS@someserver.org', 1),
+       ('KAREN JACKSON ', '613 Korolev Drive ', '1-514-111123', 'CARD', 'KAREN.JACKSON@someserver.org', null),
+       ('BETTY WHITE ', '1531 Sal Drive ', '1-514-111124', 'CARD', 'BETTY.WHITE@someserver.org', 1),
+       ('HELEN HARRIS ', '1542 Tarlac Parkway ', '1-514-111125', 'CARD', 'HELEN.HARRIS@someserver.org', null),
+       ('SANDRA MARTIN ', '808 Bhopal Manor ', '1-514-111126', 'CARD', 'SANDRA.MARTIN@someserver.org',  null),
+       ('DONNA THOMPSON ', '270 Amroha Parkway ', '1-514-111127', 'CARD', 'DONNA.THOMPSON@someserver.org', null),
+       ('CAROL GARCIA ', '770 Bydgoszcz Avenue ', '1-514-111128', 'CARD', 'CAROL.GARCIA@someserver.org',  null),
+       ('RUTH MARTINEZ ', '419 Iligan Lane ', '1-514-111129', 'CARD', 'RUTH.MARTINEZ@someserver.org',  null),
+       ('SHARON ROBINSON ', '360 Toulouse Parkway ', '1-514-111130', 'CARD', 'SHARON.ROBINSON@someserver.org',  null),
+       ('MICHELLE CLARK ', '270 Toulon Boulevard ', '1-514-111131', 'CARD', 'MICHELLE.CLARK@someserver.org',  1),
+       ('LAURA RODRIGUEZ ', '320 Brest Avenue ', '1-514-111132', 'CARD', 'LAURA.RODRIGUEZ@someserver.org',  1),
+       ('SARAH LEWIS ', '1417 Lancaster Avenue ', '1-514-111133', 'CARD', 'SARAH.LEWIS@someserver.org',  1),
+       ('KIMBERLY LEE ', '1688 Okara Way ', '1-514-111134', 'CARD', 'KIMBERLY.LEE@someserver.org',  1),
+       ('DEBORAH WALKER ', '262 A Corua (La Corua) Parkway ', '1-514-11135', 'CARD', 'DEBORAH.WALKER@someserver.org',
+        2),
+       ('JESSICA HALL ', '28 Charlotte Amalie Street ', '1-514-111136', 'CARD', 'JESSICA.HALL@someserver.org', null);
 
 
-insert into "user"(name, address, phone_number, preferred_training, e_mail, subscription_id, trainer_id);
-values ('MARY SMITH', '47 MySakila Drive', ' 1-514-1111111', 'WGHT', 'MARY.SMITH@someserver.org', 1,2),
-       ('PATRICIA JOHNSON', ', ''28 MySQL Boulevard', '1-514-1111112', 'WGHT', 'PATRICIA.JOHNSON@someserver.org', 2, null),
-       ('LINDA WILLIAMS', '23 Workhaven Lane  ', '1-514-1111113 ', 'WGHT', 'LINDA.WILLIAMS@someserver.org', 3, null),
-       ('BARBARA JONES ', '1411 Lillydale Drive ', '1-514-1111114', 'WGHT', 'BARBARA.JONES@someserver.org', null,null),
-       ('ELIZABETH BROWN ', '1913 Hanoi Way ', '1-514-1111115', 'WGHT', 'ELIZABETH.BROWN@someserver.org', null, null),
-       ('JENNIFER DAVIS ', '1121 Loja Avenue ', '1-514-1111116', 'WGHT', 'JENNIFER.DAVIS@someserver.org', null, null),
-       ('MARIA MILLER ', '692 Joliet Street ', '1-514-1111117', 'WGHT', 'MARIA.MILLER@someserver.org', null, 2),
-       ('SUSAN WILSON ', '1566 Inegl Manor ', '1-514-1111118', 'WGHT', 'SUSAN.WILSON@someserver.org', null, 1),
-       ('MARGARET MOORE ', '53 Idfu Parkway ', '1-514-1111119', 'WGHT', 'MARGARET.MOORE@someserver.org', null,1),
-       ('DOROTHY TAYLOR ', '1795 Santiago de Compostela Way ', '1-514-1111120', 'WGHT', 'DOROTHY.TAYLOR@someserver.org',
-        null, 3),
-       ('LISA ANDERSON ', '900 Santiago de Compostela Parkway ', '1-514-1111121', 'CARD',
-        'LISA.ANDERSON@someserver.org', null, null),
-       ('NANCY THOMAS ', '478 Joliet Way ', '1-514-1111122', 'CARD', 'NANCY.THOMAS@someserver.org', null, null),
-       ('KAREN JACKSON ', '613 Korolev Drive ', '1-514-1111123', 'CARD', 'KAREN.JACKSON@someserver.org', null, 1),
-       ('BETTY WHITE ', '1531 Sal Drive ', '1-514-1111124', 'CARD', 'BETTY.WHITE@someserver.org', null, 2),
-       ('HELEN HARRIS ', '1542 Tarlac Parkway ', '1-514-1111125', 'CARD', 'HELEN.HARRIS@someserver.org', null, 1),
-       ('SANDRA MARTIN ', '808 Bhopal Manor ', '1-514-1111126', 'CARD', 'SANDRA.MARTIN@someserver.org', null, 2),
-       ('DONNA THOMPSON ', '270 Amroha Parkway ', '1-514-1111127', 'CARD', 'DONNA.THOMPSON@someserver.org', null, null),
-       ('CAROL GARCIA ', '770 Bydgoszcz Avenue ', '1-514-1111128', 'CARD', 'CAROL.GARCIA@someserver.org', null, null),
-       ('RUTH MARTINEZ ', '419 Iligan Lane ', '1-514-1111129', 'CARD', 'RUTH.MARTINEZ@someserver.org', null, null),
-       ('SHARON ROBINSON ', '360 Toulouse Parkway ', '1-514-1111130', 'CARD', 'SHARON.ROBINSON@someserver.org', null, null),
-       ('MICHELLE CLARK ', '270 Toulon Boulevard ', '1-514-1111131', 'CARD', 'MICHELLE.CLARK@someserver.org', null, null),
-       ('LAURA RODRIGUEZ ', '320 Brest Avenue ', '1-514-1111132', 'CARD', 'LAURA.RODRIGUEZ@someserver.org', null, 1),
-       ('SARAH LEWIS ', '1417 Lancaster Avenue ', '1-514-1111133', 'CARD', 'SARAH.LEWIS@someserver.org', null, null),
-       ('KIMBERLY LEE ', '1688 Okara Way ', '1-514-1111134', 'CARD', 'KIMBERLY.LEE@someserver.org', null, null),
-       ('DEBORAH WALKER ', '262 A Corua (La Corua) Parkway ', '1-514-1111135', 'CARD', 'DEBORAH.WALKER@someserver.org',
-        2,1),
-       ('JESSICA HALL ', '28 Charlotte Amalie Street ', '1-514-1111136', 'CARD', 'JESSICA.HALL@someserver.org', null, null);
-
-
-
-
-create table if not exists "user"
+drop table if exists users cascade;
+create table if not exists users
 (
     user_id            integer generated always as identity primary key,
     name               varchar(30) unique not null,
-    address            text unique not null,
+    address            text unique        not null,
     phone_number       varchar(12) unique not null,
     preferred_training text,
-    e_mail             text unique not null,
-    subscription_id    integer references subscription (subscription_id),
-    check (length(e_mail) >= 6 and e_mail ilike '%@%.%'),-- if constraint not satisfyied, insert wont work
-    check (length(phone_number)>= 10)
+    e_mail             text unique        not null,
+    trainer_id         integer references trainers (trainer_id),
+    check (length(e_mail) >= 6 and e_mail ilike '%@%.%' ),
+    check (length(phone_number) >= 10)
 );
+
+
+
+
 
 drop table if exists subscription;
 drop table bygym.subscription cascade;
-create table if not exists subscription
+
+create table if not exists subscriptions
 (
     subscription_id   integer generated always as identity primary key,
-    subscrption_date  date default now() not null,
-    subsciption_type  varchar(3),-- MON, ANN, NULL (USERS NOT SUBSCRIBED)
+    subscription_date  date default now() not null,
+    subscription_type  varchar(3),-- MON, ANN, NULL (USERS NOT SUBSCRIBED)
     subscription_price integer,
+    user_id integer references users (user_id),
     receptionist_id integer references receptionists (receptionist_id)
 
-);
+)
+
+
+
 insert into subscription(subscrption_date, subsciption_type, subscription_price,receptionist_id)
 values ('2022-03-02', 'ANN', 350,3),
        ('2022-03-02', 'ANN', 350,4),
        ('2021-01-21','ANN',350,3),
        ('2021-08-21','MON',30,3);
+       
+       
+insert into subscriptions(subscription_date, subscription_type, subscription_price, user_id, receptionist_id)
+values ('2022-03-02', 'ANN', 350, 1, 3),
+       ('2022-03-02', 'ANN', 350, 1, 4),
+       ('2021-01-21', 'ANN', 350, 1, 3),
+       ('2021-08-21', 'MON', 30, 1, 3),
+       ('2022-03-02', 'ANN', 350, 1, 3),
+       ('2022-03-02', 'ANN', 350, 2, 4),
+       ('2021-01-21', 'ANN', 350, 3, 3),
+       ('2021-04-11', 'ANN', 350, 4, 2),
+       ('2021-07-21', 'ANN', 350, 5, 2),
+       ('2021-06-21', 'ANN', 350, 6, 1),
+       ('2021-04-11', 'ANN', 350, 7, 3),
+       ('2021-07-21', 'ANN', 350, 8, 4),
+       ('2021-06-21', 'ANN', 350, 9, 3),
+       ('2021-07-21', 'ANN', 350, 10, 2),
+       ('2021-06-21', 'ANN', 350, 11, 2),
+       ('2021-03-11', 'ANN', 350, 12, 1),
+       ('2021-03-11', 'ANN', 350, 13, 3),
+       ('2021-07-21', null, null, 14, 4),
+       ('2021-06-21', 'MON', 30, 15, 3),
+       ('2021-08-11', 'MON', 30, 16, 2),
+       ('2021-01-21', 'MON', 30, 17, 2),
+       ('2021-07-21', 'MON', 30, 18, 1),
+       ('2021-06-21', 'MON', 30, 19, 2),
+       ('2021-01-21', 'MON', 30, 20, 1),
+       ('2021-02-21', 'MON', 30, 21, 2),
+       ('2021-02-02', 'MON', 30, 22, 1),
+       ('2021-02-02', null, null, 23, 3),
+       ('2021-02-02', null, null, 24, 4),
+       ('2021-07-21', null, null, 25, 3),
+       ('2021-06-21', null, null, 26, 2),
+       ('2021-02-02', null, null, 27, 2),
+       ('2021-08-01', null, null, 28, 1),
+       ('2021-08-11', null, null, 29, 2),
+       ('2021-08-11', null, null, 30, 1),
+       ('2021-08-05', null, null, 31, 3);
 
 
 
