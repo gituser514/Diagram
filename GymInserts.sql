@@ -1212,3 +1212,59 @@ values ('2021-08-11 09:00:00', 2, 2, 3, null, 1, 11),
        ('2021-08-13 19:52:02', 1, 4, null, 2, 1, 20),
        ('2021-08-13 19:59:17', 1, 4, null, 2, 2, 21),
        ('2021-08-13 19:59:51', 2, 4, 1, null, 3, 22);
+
+
+
+-- Find all the users that dont have subscriptions
+
+select "user".name, "user".subscription_id
+from "user"
+where "user".subscription_id is null;
+
+
+-- Find the users that have trainers.
+select "user".name, "user".trainer_id
+from "user"
+where "user".trainer_id is not null;
+
+
+-- Find all the monthly subscribers
+
+select name, subscription.subscription_id
+from subscription
+inner join bygym.user u on subscription.subscription_id = u.subscription_id
+where subsciption_type = 'MON';
+
+
+-- What percentage of total users prefer weight training over cardio training?
+with total as
+    (select preferred_training, count("user".user_id)
+            from "user"
+            group by preferred_training)
+(select preferred_training, count(user_id)
+from "user"
+group by preferred_training
+having preferred_training = 'WGHT') /total;
+
+
+
+
+
+
+SELECT
+    ( count("user".user_id)  where preferred_training = 'WEGHT'
+        / count("user".user_id))*100 as percentage
+FROM
+  "user"
+
+WHERE
+  preferred_training = 'WGHT';
+
+
+-- How many visits have occupied a locker in august 2022?
+
+
+
+
+
+
