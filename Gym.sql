@@ -3,16 +3,18 @@ create schema if not exists BYGym;
 set search_path to BYGym;
 
 --Users (USER_ID, name, address, phone_number, preffered_training)
-drop table if exists users;
+rop table if exists users cascade;
 create table users
 (
     user_id            integer generated always as identity primary key,
     name               varchar(30) unique not null,
-    phone_number       varchar(12) unique not null,
     address            text unique        not null,
-    email              text unique        not null,
+    phone_number       varchar(12) unique not null,
     preferred_training text,
-    check ( length(email) >= 6 and email ilike '%@%.%')
+    e_mail             text unique        not null,
+    trainer_id         integer references trainers (trainer_id),
+    check (length(e_mail) >= 6 and e_mail ilike '%@%.%' ),
+    check (length(phone_number) >= 10)
 );
 
 
