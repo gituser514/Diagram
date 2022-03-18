@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T13:58:18.319Z" agent="5.0 (Windows)" etag="MFRcdCh-jRX_omMLbLuZ" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-18T14:05:06.060Z" agent="5.0 (Windows)" etag="gPjQTlxNvs7eZKu0ayaR" version="16.6.2" type="github">
   <diagram id="S5U35zioawIEqd8V08nD" name="Page-1">
     <mxGraphModel dx="1075" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
         <mxCell id="wlDCUmGC1mf5rQUe6NT3-16" value="conversations" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="600" y="220" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wlDCUmGC1mf5rQUe6NT3-17" value="+conversation_id&#xa;+date&#xa;+starting_email&#xa;+contents" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wlDCUmGC1mf5rQUe6NT3-16">
+        <mxCell id="wlDCUmGC1mf5rQUe6NT3-17" value="+conversation_id&#xa;+date&#xa;+starting_email&#xa;+replying_email" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wlDCUmGC1mf5rQUe6NT3-16">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wlDCUmGC1mf5rQUe6NT3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wlDCUmGC1mf5rQUe6NT3-22" target="wlDCUmGC1mf5rQUe6NT3-16">
