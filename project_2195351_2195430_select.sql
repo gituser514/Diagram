@@ -55,13 +55,13 @@ where subscription_id is null;
 
 select s.subsciption_type, sum(p.amount_paid)
 from subscription s
-         left join bygym1.payments p on s.subscription_id = p.subscription_id
+         left join payments p on s.subscription_id = p.subscription_id
 group by s.subsciption_type;
 
 -- pay per visit revenue
 select s2.subscription_id, sum(p2.amount_paid)
 from subscription s2
-         left join bygym1.payments p2 on s2.subscription_id = p2.subscription_id
+         left join payments p2 on s2.subscription_id = p2.subscription_id
 where s2.subscription_id is null
 group by s2.subscription_id
 order by 1;
@@ -73,21 +73,16 @@ select v.date, t.name
 from trainers t
          left join visits v on t.trainer_id = v.trainer_id
          left join "user" u on t.trainer_id = u.trainer_id
-where t.trainer_id = 1;
+where t.name ilike 'John Trainer';
 
-select v.date
-from visits v
-having user_id
-
-select
 
 
 -- visits of users with subscriptions which should have a trainer assigned
 
 select v.visit_id, v.date, u.trainer_id, t.name
 from visits v
-         left join bygym1.payments p on v.user_id = p.user_id
-         left join bygym1."user" u on p.user_id = u.user_id
+         left join payments p on v.user_id = p.user_id
+         left join "user" u on p.user_id = u.user_id
          left join trainers t on u.trainer_id = t.trainer_id
 where subscription_id is not null;
 
