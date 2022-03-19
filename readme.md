@@ -1,7 +1,7 @@
  
 ### Part A: ER modelling (15 points)
  
- - name and student number of each team member
+ name and student number of each team member:
  - Yelena Dudchenko 2195430
  - Basil Kamhiyah 2195351
 
